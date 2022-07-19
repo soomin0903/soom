@@ -4,59 +4,216 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="apple.css">
+    <title>apple</title>
 </head>
 <body>
     <div class="header">
-        <div class="header__inner inner">
-            <div class="header__logo"><img src="img/APPLE LOGO_2.svg" alt=""></div>
-            <ul class="header__menu">
-                <li class="header__menu--layout">스토어</li>
-                <li class="header__menu--layout">Mac</li>
-                <li class="header__menu--layout">iPad</li>
-                <li class="header__menu--layout">iPhone</li>
-                <li class="header__menu--layout">Watch</li>
-                <li class="header__menu--layout">Air Pods</li>
-                <li class="header__menu--layout">TV 및 홈</li>
-                <li class="header__menu--layout">apple 독점 제공</li>
-                <li class="header__menu--layout">액서사리</li>
-                <li class="header__menu--layout">고객지원</li>
-                <li class="header__menu--layout">
-                    <div class="header__menu--search"><img src="img/globalnav_search_image__cbllq1gkias2_large.svg" alt=""></div>
-                    <div class="header__menu--bag"><img src="img/globalnav_search_image__cbllq1gkias2_large.svg" alt=""></div>
-                </li>
-            </ul>
+        <div class="BG">
+            <div class="inner">
+                <ul class="menu_bar">
+                    <li><a href="#"><img src="img/apple_header_logo.svg" alt=""></a></li>
+                    <li><a href="#">스토어</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">TV 및 홈</a></li>
+                    <li><a href="#">Apple 독점 제공</a></li>
+                    <li><a href="#">액세서리</a></li>
+                    <li><a href="#">고객지원</a></li>
+                    <li><a href="#"><img src="img/search_icon.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/cart_icon.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <p><i><a href="#">온라인으로 쇼핑</a></i>하고 무료 배송, 스페셜리스트 지원 등의 혜택을 받으세요.</p>
         </div>
     </div>
     <div class="container">
-        <div class="container__inner inner">
-            <div class="container__banner"><i>온라인으로 쇼핑</i>하고 무료 배송, 스페셜리스트 지원 등의 혜택을 받으세요.</div>
-            <div class="container__iphone">
-                <h2 class="container__iphone-logo">iPhone 13</h2>
-                <p class="container__iphone-txt">일상을 위한 비상한 능력.</p>
-                <div class="container__btn">
-                    <p class="container__btn--first">더 알아보기</p>
-                    <p class="container__btn--second">구입하기</p>
+        <div class="macbook_air">
+            <div class="inner layout2">
+                <h2>MacBook Air</h2>
+                <p class="sub_txt"><img src="img/m2_logo.png" alt=""></p>
+                <div class="btn">
+                    <ul>
+                        <li class="more"><a href="#">더 알아보기</a></li>
+                        <li class="order"><a href="#">구입하기</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="container__iphone">
-                <h2 class="container__iphone-logo"><img src="img/hero_logo_watch_lte__fy5faj6xg7m2_large_2x.png" alt=""></h2>
-                <p class="container__iphone-txt">이제껏 가장 큰 디스플레이 탑재</p>
-                <div class="container__btn">
-                    <p class="container__btn--first">더 알아보기</p>
-                    <p class="container__btn--second">구입하기</p>
-                </div>
+        </div>
+
+        <div class="iphone_13">
+            <h2>iPhone 13</h2>
+            <p class="sub_txt2">일상을 위한 비상한 능력.</p>
+            <div class="btn">
+                <ul>
+                    <li class="more"><a href="#">더 알아보기</a></li>
+                    <li class="order"><a href="#">구입하기</a></li>
+                </ul>
             </div>
-            <div class="container__macbook">
-                <h2 class="container__macbook-logo"><img src="img/hero_logo_watch_lte__fy5faj6xg7m2_large_2x.png" alt=""></h2>
-                <p class="container__macbook-txt"><img src="img/logo_hero_macbookair__edl9uovq56wm_large_2x.png" alt=""></p>
-                <p class="container__macbook-subtit">7월 8일 오후 9시 주문 시작.</p>
-                <div class="container__btn">
-                    <p class="container__btn--first">더 알아보기</p>
-                    <p class="container__btn--second">가격보기</p>
-                </div>
+        </div>
+
+        <div class="apple_watch">
+            <h2><img src="img/apple_watch_logo.png" alt=""></h2>
+            <p class="sub_txt2">이제껏 가장 큰 디스플레이 탑재.</p>
+            <div class="btn">
+                <ul>
+                    <li class="more"><a href="#">더 알아보기</a></li>
+                    <li class="order"><a href="#">구입하기</a></li>
+                </ul>
             </div>
-            
+        </div>
+
+        <ul class="layout_product">
+            <li class="iphone_pro">
+                <h2>iPhone 13 Pro</h2>
+                <p class="sub_txt2">이게 바로 프로.</p>
+                <div class="btn2">
+                    <ul>
+                        <li class="more"><a href="#">더 알아보기</a></li>
+                        <li class="order"><a href="#">구입하기</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="macbook_pro">
+                <h2>MacBook Pro 13</h2>
+                <p class="sub_txt"><img src="img/m2_logo_b.png" alt=""></p>
+                <div class="btn2">
+                    <ul>
+                        <li class="more"><a href="#">더 알아보기</a></li>
+                        <li class="order"><a href="#">구입하기</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="ipad_air">
+                <h2><img src="img/ipadair.png" alt=""></h2>
+                <p class="sub_txt">가뿐하게. 색다르게. 강력하게.</p>
+                <div class="btn2">
+                    <ul>
+                        <li class="more"><a href="#">더 알아보기</a></li>
+                        <li class="order"><a href="#">구입하기</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="ipad">
+                <h2>iPad</h2>
+                <p class="sub_txt">매사를 더욱 쉽게.</p>
+                <div class="btn2">
+                    <ul>
+                        <li class="more"><a href="#">더 알아보기</a></li>
+                        <li class="order"><a href="#">구입하기</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="airpods_pro">
+                <h2>AirPods Pro</h2>
+                <p class="sub_txt">새롭게 귓가를 찾아온 매혹</p>
+                <div class="btn2">
+                    <ul>
+                        <li class="more"><a href="#">더 알아보기</a></li>
+                        <li class="order"><a href="#">구입하기</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tv">
+                <div class="top_logo"><img src="img/apple_tv_logo.png" alt=""></div>
+                <div class="layout4">
+                    <div class="con_logo"><img src="img/blackbird.png" alt=""></div>
+                    <p>감옥에서 벗어가는 단 하나의 방법,<br>살인자의 과거를 밝혀라.</p>
+                    <div class="btn_3">지금 시청하기</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <div class="inner">
+            <p class="foot_sub_txt">무료 체험 기간이 끝나면 월 6,500원에 이용할 수 있습니다. 본인 또는 가족 구성원이 구입한 기기 수에 상관없이, 무료 체험 혜택은 Apple ID당 한 번 또는 본인이 ‘가족 공유’ 그룹의 구성원일 경우 그룹당 한 번만 제공됩니다. 본인 또는 가족 구성원이 이미 Apple TV+ 3개월 무료 체험 혜택을 이용한 경우에는 이 혜택을 이용할 수 없습니다. 무료 체험 혜택은 적용 대상 기기 활성화 이후 3개월 안에 신청할 수 있습니다. 멤버십은 매월 자동으로 갱신되며, 해지 시 종료됩니다. 특정 제한 사항 및 기타 약관이 적용됩니다.</p>
+            <ul class="foot_menu">
+                <li>
+                    <h4>쇼핑 및 알아보기</h4>
+                    <span><a href="">스토어</a></span>
+                    <span><a href="">Mac</a></span>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                    <span><a href="">AirPods</a></span>
+                    <span><a href="">TV 및 홈</a></span>
+                    <span><a href="">AirTag</a></span>
+                    <span><a href="">액세서리</a></span>
+                </li>
+                <li>
+                    <h4>서비스</h4>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                    <span><a href="">AirPods</a></span>
+                    <span><a href="">TV 및 홈</a></span>
+                    <span><a href="">AirTag</a></span>
+                    <span><a href="">액세서리</a></span>
+                    <h4>계정</h4>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                </li>
+                <li>
+                    <h4>Apple Store</h4>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                    <span><a href="">AirPods</a></span>
+                    <span><a href="">TV 및 홈</a></span>
+                    <span><a href="">AirTag</a></span>
+                    <span><a href="">액세서리</a></span>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                    <span><a href="">AirPods</a></span>
+                </li>
+                <li>
+                    <h4>비즈니스</h4>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <h4>교육</h4>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                </li>
+                <li>
+                    <h4>Apple의 가치관</h4>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">TV 및 홈</a></span>
+                    <span><a href="">AirTag</a></span>
+                    <span><a href="">액세서리</a></span>
+                    <h4>Apple 정보</h4>
+                    <span><a href="">iPad</a></span>
+                    <span><a href="">iPhone</a></span>
+                    <span><a href="">Watch</a></span>
+                    <span><a href="">AirPods</a></span>
+                    <span><a href="">TV 및 홈</a></span>
+                    <span><a href="">AirTag</a></span>
+                    <span><a href="">액세서리</a></span>
+                </li>
+            </ul>
+            <p>다양한 쇼핑 방법 : <i><a href="#">Apple Store를 방문</a></i>하거나, <i><a href="#"></a>리셀러</a></i>를 찾아보거나, 080-330-8877번으로 전화하세요</p>
+            <div class="copyright">
+                <p>Copyright © 2022 Apple Inc. 모든 권리 보유.</p>
+                <ul>
+                    <li><a href="">개인정보 처리방침</a></li>
+                    <li><a href="">웹사이트 이용 약관</a></li>
+                    <li><a href="">판매 및 환불</a></li>
+                    <li><a href="">법적 고지</a></li>
+                    <li><a href="">사이트 맵</a></li>
+                </ul>
+            </div>
+            <p>사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호 | 대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517 | 대표전화 : 02-6712-6700 | 팩스 : 02-6928-0000</p>
         </div>
     </div>
 </body>
